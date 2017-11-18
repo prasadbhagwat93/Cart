@@ -45,7 +45,8 @@ public class optionPage extends AppCompatActivity {
     }
 
     protected void suggest(){
-
+        Intent intent = new Intent(this, StoreActivity.class);
+        startActivity(intent);
     }
 
     protected void restaurentOption(){
