@@ -20,7 +20,7 @@ public class DynamoDBClass extends AppCompatActivity {
     DynamoDBClass() {
          this.credentialsProvider = new CognitoCachingCredentialsProvider(
                 getApplicationContext(),    /* get the context for the application */
-                "us-east-1_FRKZmmd4r",    /* Identity Pool ID */
+                "us-east-1_FRKZmmd4rf",    /* Identity Pool ID */
                 Regions.US_EAST_1           /* Region for your identity pool--US_EAST_1 or EU_WEST_1*/
         );
          this.ddbClient = new AmazonDynamoDBClient(credentialsProvider);
